@@ -1,6 +1,8 @@
 import { MAIN, A, practice, courts } from '@/lib/site';
 import { pageGraph, pageMetadata, faqSchema } from '@/lib/schema';
 import { Shell, CallButton, SiteButton, Stamp, Facts, Register, Profile, AskList, Faq, Reading, FindUs, Closing } from '@/components/ui';
+import { PostList } from '@/components/blog';
+import { posts } from '@/lib/posts';
 
 const path = '/';
 const title = 'Best Lawyer in Kadapa | Advocate Rajesh Kumar Reddy (Since 1990)';
@@ -150,6 +152,17 @@ export default function Home() {
             ఆఫీసు కడప జిల్లా కోర్టు పక్కన ఉంది. ఫోన్: <a href={A.phone.tel}>93463 62201</a> (సోమవారం నుండి శనివారం, ఉదయం 9 నుండి సాయంత్రం 7
             వరకు).
           </p>
+        </div>
+      </section>
+
+      <section className="section section-tint" aria-labelledby="guides-h">
+        <div className="wrap">
+          <div className="section-head">
+            <h2 id="guides-h">Legal guides for Kadapa</h2>
+            <p className="section-intro">Plain-language help with courts, records and your rights.</p>
+          </div>
+          <PostList posts={posts} />
+          <p className="source-note"><a href="/blog">All legal guides</a></p>
         </div>
       </section>
 

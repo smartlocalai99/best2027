@@ -1,6 +1,6 @@
 // Facts about Advocate Rajesh Kumar Reddy, all taken from his own website and Google Business Profile.
 // Set NEXT_PUBLIC_SITE_URL in Vercel if the domain differs from the default below.
-export const SITE = (process.env.NEXT_PUBLIC_SITE_URL || 'https://best-lawyer-in-kadapa.vercel.app').replace(/\/$/, '');
+export const SITE = (process.env.NEXT_PUBLIC_SITE_URL || 'https://best2027-4xu7.vercel.app').replace(/\/$/, '');
 export const MAIN = 'https://www.rajeshkumarreddyadvocatekadapa.com';
 export const UPDATED = '2026-11-16';
 
@@ -68,6 +68,7 @@ export const nav = [
   { href: '/best-criminal-lawyer-in-kadapa', label: 'Criminal & bail' },
   { href: '/best-property-lawyer-in-kadapa', label: 'Property & civil' },
   { href: '/best-divorce-lawyer-in-kadapa', label: 'Divorce & family' },
+  { href: '/blog', label: 'Guides' },
   { href: MAIN + '/', label: 'Official website' },
 ];
 
@@ -76,4 +77,5 @@ export const pages = [
   { path: '/best-criminal-lawyer-in-kadapa', priority: 0.9 },
   { path: '/best-property-lawyer-in-kadapa', priority: 0.9 },
   { path: '/best-divorce-lawyer-in-kadapa', priority: 0.9 },
+  { path: '/blog', priority: 0.8 },
 ];

@@ -3,7 +3,7 @@ import { pageGraph, pageMetadata, faqSchema, breadcrumbSchema } from '@/lib/sche
 import { Shell, CallButton, SiteButton, Stamp, Facts, Register, Profile, Steps, Faq, Reading, FindUs, Closing, Crumbs } from '@/components/ui';
 
 const path = '/best-criminal-lawyer-in-kadapa';
-const title = 'Best Criminal Lawyer in Kadapa | Bail & Cheque Bounce | Rajesh Kumar Reddy';
+const title = 'Best Criminal Lawyer in Kadapa | Bail & Cheque Bounce Cases';
 const description =
   'Criminal defence, bail, anticipatory bail, NDPS and cheque bounce cases in Kadapa with Advocate Rajesh Kumar Reddy, practising beside Kadapa District Court since 1990.';
 

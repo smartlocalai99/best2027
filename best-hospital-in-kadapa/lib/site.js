@@ -1,6 +1,6 @@
 // Verified Dhruva Hospitals facts. Mirrors lib/site.js and lib/data.js in the main Dhruva repo.
 // Set NEXT_PUBLIC_SITE_URL in Vercel if the domain differs from the default below.
-export const SITE = (process.env.NEXT_PUBLIC_SITE_URL || 'https://best-hospital-in-kadapa.vercel.app').replace(/\/$/, '');
+export const SITE = (process.env.NEXT_PUBLIC_SITE_URL || 'https://best2027-8uyv.vercel.app').replace(/\/$/, '');
 export const MAIN = 'https://www.dhruvahospitals.com';
 export const UPDATED = '2026-11-16';
 
@@ -98,6 +98,7 @@ export const nav = [
   { href: '/best-childrens-hospital-in-kadapa', label: 'Children’s hospital' },
   { href: '/best-gynecologist-in-kadapa', label: 'Gynecologist & maternity' },
   { href: '/hospital-near-me-kadapa', label: 'Hospital near me' },
+  { href: '/blog', label: 'Guides' },
   { href: MAIN + '/', label: 'Main website' },
 ];
 
@@ -107,4 +108,5 @@ export const pages = [
   { path: '/best-childrens-hospital-in-kadapa', priority: 0.9 },
   { path: '/best-gynecologist-in-kadapa', priority: 0.9 },
   { path: '/hospital-near-me-kadapa', priority: 0.8 },
+  { path: '/blog', priority: 0.8 },
 ];

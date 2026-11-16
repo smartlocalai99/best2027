@@ -3,6 +3,8 @@ import { pageGraph, pageMetadata, faqSchema, physicianSchema } from '@/lib/schem
 import {
   Shell, CallButton, DirectionsButton, SignBand, BuildingSpot, Directory, DoctorCard, AskList, Faq, Reading, FindUs, Closing, Star,
 } from '@/components/ui';
+import { PostList } from '@/components/blog';
+import { posts } from '@/lib/posts';
 
 const path = '/';
 const title = 'Best Hospital in Kadapa for Mother & Child | Dhruva Hospitals';
@@ -134,6 +136,17 @@ export default function Home() {
               Paediatrician Dr. Sudarshan Reddy K opened Dhruva Hospitals in Kadapa on {H.opened}.
             </p>
           </div>
+        </div>
+      </section>
+
+      <section className="section" aria-labelledby="guides-h">
+        <div className="wrap">
+          <div className="section-head">
+            <h2 id="guides-h">Guides for families</h2>
+            <p className="section-intro">Plain-language help with the decisions around pregnancy, birth and children’s health.</p>
+          </div>
+          <PostList posts={posts} />
+          <p className="source-note"><a href="/blog">All family health guides</a></p>
         </div>
       </section>
 

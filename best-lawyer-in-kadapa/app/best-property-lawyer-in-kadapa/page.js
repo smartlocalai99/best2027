@@ -3,7 +3,7 @@ import { pageGraph, pageMetadata, faqSchema, breadcrumbSchema } from '@/lib/sche
 import { Shell, CallButton, SiteButton, Stamp, Facts, Register, Profile, Faq, Reading, FindUs, Closing, Crumbs } from '@/components/ui';
 
 const path = '/best-property-lawyer-in-kadapa';
-const title = 'Best Property & Civil Lawyer in Kadapa | Land Disputes | Rajesh Kumar Reddy';
+const title = 'Best Property & Land Lawyer in Kadapa | Rajesh Kumar Reddy';
 const description =
   'Land and property disputes, partition and injunction suits, title verification and revenue record matters in Kadapa with Advocate Rajesh Kumar Reddy, practising since 1990.';
 
