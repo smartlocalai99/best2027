@@ -1,6 +1,6 @@
 # best2027: local SEO sites for Kadapa
 
-Each folder is a separate static site with its own Vercel project.
+Each folder is a separate Next.js site with its own Vercel project.
 
 | Folder | Vercel project name | Live URL |
 | --- | --- | --- |
@@ -12,8 +12,8 @@ Each folder is a separate static site with its own Vercel project.
 1. In Vercel, click **Add New → Project** and import `smartlocalai99/best2027`.
 2. Enter the project name from the table.
 3. Next to **Root Directory**, click **Edit** and choose that folder.
-4. Leave Framework as **Other** and leave the build settings empty, then click **Deploy**.
+4. Vercel detects Next.js automatically. Leave the build settings as they are and click **Deploy**.
 
 Every push to `main` then redeploys both sites.
 
-To edit a site, change its `build.mjs`, run `node build.mjs` inside the folder, and commit the regenerated `public/` folder.
+To work on a site locally: `cd` into its folder, run `npm install`, then `npm run dev`. If a site moves to a different domain, set `NEXT_PUBLIC_SITE_URL` in that Vercel project.
